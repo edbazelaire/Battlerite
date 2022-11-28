@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9126d816bc6a494a88c8c61712354997, type: 3}
+  m_Name: Marcus
+  m_EditorClassIdentifier: 
+  Abilities:
+  - {fileID: 11400000, guid: 0f4bc89266c282040be9b0fc1452e6c6, type: 2}
+  - {fileID: 11400000, guid: ab3f6c68f70122f4b9ac2fd3d5e0fe9d, type: 2}
+  - {fileID: 11400000, guid: c769db3eb6ae8c94caf7192eb61776f0, type: 2}
+  - {fileID: 11400000, guid: 51b6bdfe81e5a4340a4cf8ad237f0169, type: 2}
+  - {fileID: 11400000, guid: 2c818963cdb4fa843b40f3fcc6ea2960, type: 2}
+  BaseHP: {fileID: 11400000, guid: 5392dcc66b6837147a1ac4ff5561253f, type: 2}
+  ManaReserve: 200
+  ManaPool: 100
+  Speed: 10
+  DisplayedName: Marcus

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9126d816bc6a494a88c8c61712354997, type: 3}
+  m_Name: BaseCharacter
+  m_EditorClassIdentifier: 
+  CharacterType: 0
+  Abilities:
+  - {fileID: 11400000, guid: de6372c8d79219d4092713d3ffe8374a, type: 2}
+  - {fileID: 11400000, guid: bd2fc42bad7b0654cad5f67600eb65d2, type: 2}
+  - {fileID: 11400000, guid: 68327b12fa3b8814cb14d9487782ba3a, type: 2}
+  BaseHP: {fileID: 11400000, guid: 78f349fc0fd7f9f4cb382441e22b0ea0, type: 2}
+  ManaReserve: 150
+  ManaPool: 100
+  Speed: 10
+  DisplayedName: Base Character

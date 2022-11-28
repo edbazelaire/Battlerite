@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71053221e8cb4013b198252a681950b5, type: 3}
+  m_Name: Oldur
+  m_EditorClassIdentifier: 
+  m_Guid: 5aa9ba02e332fb4ca4279f74e18a87ea
+  CharacterClass: {fileID: 11400000, guid: bc5a128c6453f9641b9a2b60e46ab6bf, type: 2}
+  Graphics: {fileID: 3963062526200761308, guid: a4f1d1619903f0a4299ae7b825e070d9, type: 3}
+  GraphicsCharacterSelect: {fileID: 3963062526200761308, guid: 06d3eb0b89456e24492c84f6da0518e0, type: 3}
+  Portrait: {fileID: 21300000, guid: bc7ee00705c742d4d9c2cf2679e3ebab, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9126d816bc6a494a88c8c61712354997, type: 3}
+  m_Name: Oldur
+  m_EditorClassIdentifier: 
+  CharacterType: 1
+  Abilities:
+  - {fileID: 11400000, guid: 9970904390300ef4fb1d0eb1d4cb0d3b, type: 2}
+  - {fileID: 11400000, guid: b00b913ad89651e49a5f76d2c5fcf366, type: 2}
+  - {fileID: 11400000, guid: 68327b12fa3b8814cb14d9487782ba3a, type: 2}
+  - {fileID: 11400000, guid: 0957bd6cf61fe3a43a65cf73bf44cb12, type: 2}
+  - {fileID: 11400000, guid: 3c0055321b5f1dc439d5450e41048bfb, type: 2}
+  - {fileID: 11400000, guid: 5b4ded5beb9fd184fae9e2764a96f635, type: 2}
+  BaseHP: {fileID: 11400000, guid: 43aaad04c0d8ed144b412935f02c091d, type: 2}
+  ManaReserve: 200
+  ManaPool: 100
+  Speed: 6
+  DisplayedName: Oldur

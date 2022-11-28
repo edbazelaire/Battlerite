@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7cb48978e64b50807ddfcd3eb13f24, type: 3}
+  m_Name: QuickSands
+  m_EditorClassIdentifier: 
+  Logic: 1
+  Prefab: {fileID: 1432735992933365817, guid: f1adb245d2ab17044a93684a441c7bfc, type: 3}
+  ManaCost: 0
+  Damage: 15
+  Heal: 0
+  Radius: 2
+  Speed: 0
+  MaxVictims: 0
+  IgnoreWalls: 1
+  CancelMovement: 0
+  MinRange: 0
+  MaxRange: 15
+  IsOnMousePosition: 1
+  ExecTimeSeconds: 0.45
+  ActivationDelay: 2
+  DurationSeconds: 0
+  ReuseTimeSeconds: 2
+  ActionInterruptible: 0
+  BlockingMode: 1
+  AnimAnticipation: 
+  Anim: cast
+  CancelAnimation: cancel
+  PrevisualisationPrefab: {fileID: 0}
+  Spawns:
+  - SpawnPrefab: {fileID: 104371671403468341, guid: ae28fb53ad2f3bb49825e2e7852dccdf, type: 3}
+    ActionStateStart: 2
+    FXType: 2
+    PositionType: 0
+    VisibilityType: 0
+    IsInterruptible: 0
+  KnockBackSpeed: 0
+  KnockBackDistance: 0
+  AbilityEffects: []
+  StateEffects: []
+  Icon: {fileID: 21300000, guid: 69bb0df458889514c93c762a0d1912ca, type: 3}
+  DisplayedName: Quick Sands
+  Description: Launch a Quick Sands on the target

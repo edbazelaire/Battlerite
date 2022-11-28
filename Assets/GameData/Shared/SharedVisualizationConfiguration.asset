@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd33344c061544eca6733932770eddc0, type: 3}
+  m_Name: SharedVisualizationConfiguration
+  m_EditorClassIdentifier: 
+  m_AliveStateTrigger: StandUp
+  m_FaintedStateTrigger: FallDown
+  m_DeadStateTrigger: Dead
+  m_AnticipateMoveTrigger: AnticipateMove
+  m_EntryDeathTrigger: EntryDeath
+  m_EntryFaintedTrigger: EntryFainted
+  m_CastTrigger: cast
+  m_SpeedVariable: PlayerSpeed
+  m_BaseNodeTag: BaseNode
+  SpeedDead: 0
+  SpeedIdle: 0
+  SpeedNormal: 1
+  SpeedUncontrolled: 0
+  SpeedSlowed: 2
+  SpeedHasted: 1.5
+  SpeedWalking: 0.5
+  TargetReticule: {fileID: 0}
+  ReticuleFriendlyMat: {fileID: 0}
+  ReticuleHostileMat: {fileID: 0}
+  AliveStateTriggerID: -1201797473
+  FaintedStateTriggerID: 426567206
+  DeadStateTriggerID: 1293411866
+  AnticipateMoveTriggerID: 291833189
+  EntryDeathTriggerID: -1864568334
+  EntryFaintedTriggerID: -379974620
+  CastTriggerID: 314096118
+  SpeedVariableID: -1220248051
+  BaseNodeTagID: -80330083

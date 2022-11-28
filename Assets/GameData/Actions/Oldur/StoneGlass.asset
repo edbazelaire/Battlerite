@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7cb48978e64b50807ddfcd3eb13f24, type: 3}
+  m_Name: StoneGlass
+  m_EditorClassIdentifier: 
+  Logic: 3
+  Prefab: {fileID: 1471300875554086890, guid: 32d8a6cd3a839ff438f1350c7a674abc, type: 3}
+  ManaCost: 25
+  Damage: 0
+  Heal: 0
+  Radius: 1.5
+  Speed: 0
+  MaxVictims: 0
+  IgnoreWalls: 1
+  CancelMovement: 0
+  MinRange: 1
+  MaxRange: 1
+  IsOnMousePosition: 0
+  ExecTimeSeconds: 0.5
+  ActivationDelay: 0
+  DurationSeconds: 0
+  ReuseTimeSeconds: 3
+  ActionInterruptible: 0
+  BlockingMode: 1
+  AnimAnticipation: 
+  Anim: cast
+  CancelAnimation: cancel
+  PrevisualisationPrefab: {fileID: -6719718550787936336, guid: 4b6198868a8736a4884f227f4ce52f4a, type: 3}
+  Spawns: []
+  KnockBackSpeed: 20
+  KnockBackDistance: 2
+  AbilityEffects: []
+  StateEffects:
+  - type: 5
+    duration: 3
+    fromValue: 0
+    toValue: 0
+    delay: 1
+    shield: 15
+  Icon: {fileID: 21300000, guid: 6314230115f187c42b5d91863f22078a, type: 3}
+  DisplayedName: Stone Glass
+  Description: Petrify a target for 2 seconds

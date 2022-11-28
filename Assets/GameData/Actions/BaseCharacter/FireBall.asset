@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7cb48978e64b50807ddfcd3eb13f24, type: 3}
+  m_Name: FireBall
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Prefab: {fileID: 1432735992933365817, guid: ae96c314a61ff2641bbd747da3f61517, type: 3}
+  ManaCost: 5
+  Damage: 16
+  Heal: 0
+  RadiusStart: 0
+  Radius: 0
+  Speed: 15
+  MaxVictims: 1
+  IgnoreWalls: 0
+  CancelMovement: 0
+  CancelRotation: 0
+  MinRange: 0
+  MaxRange: 15
+  IsOnMousePosition: 0
+  ExecTimeSeconds: 0.25
+  ActivationDelay: 0
+  DurationSeconds: 0
+  ReuseTimeSeconds: 0.35
+  ActionInterruptible: 1
+  BlockingMode: 1
+  AnimAnticipation: 
+  Anim: cast
+  CancelAnimation: cancel
+  PrevisualisationPrefab: {fileID: 0}
+  Spawns: []
+  KnockBackSpeed: 0
+  KnockBackDistance: 0
+  AbilityEffects:
+  - AbilityEffect: {fileID: 11400000, guid: 2ebe75fcdfd9e0c488486de5e8ffb4d2, type: 2}
+    Duration: 0
+  StateEffects: []
+  Icon: {fileID: 21300000, guid: 6f05f2054de556546bca9dcd89707fe4, type: 3}
+  DisplayedName: Fire Ball
+  Description: "Create a fireball that deals 12 damages to ennemy \nand applies TimeBomb"

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7cb48978e64b50807ddfcd3eb13f24, type: 3}
+  m_Name: IceShards
+  m_EditorClassIdentifier: 
+  Logic: 8
+  Prefab: {fileID: 5491789215861433937, guid: 3df4e66f358b2b2429789b621dbc6a1d, type: 3}
+  ManaCost: 0
+  Damage: 0
+  Heal: 0
+  Radius: 0
+  Speed: 0
+  MaxVictims: 0
+  IgnoreWalls: 0
+  CancelMovement: 1
+  CancelRotation: 1
+  MinRange: 0
+  MaxRange: 0
+  IsOnMousePosition: 0
+  ExecTimeSeconds: 0
+  ActivationDelay: 0
+  DurationSeconds: 3
+  ReuseTimeSeconds: 0.5
+  ActionInterruptible: 1
+  BlockingMode: 0
+  AnimAnticipation: 
+  Anim: 
+  CancelAnimation: 
+  PrevisualisationPrefab: {fileID: 0}
+  Spawns:
+  - SpawnPrefab: {fileID: 2747571726756712284, guid: 6c13fb83d3e18994e9412325e5ec8339, type: 3}
+    ActionStateStart: 2
+    FXType: 4
+    PositionType: 1
+    VisibilityType: 0
+    IsInterruptible: 1
+  KnockBackSpeed: 0
+  KnockBackDistance: 0
+  AbilityEffects: []
+  StateEffects: []
+  Icon: {fileID: 21300000, guid: 2fc2c499b4d94b44dbb1f63b703aae0c, type: 3}
+  DisplayedName: Ice Shards
+  Description: 
